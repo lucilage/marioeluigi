@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logo-header.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario & Luigi - Encanadores</title>
+</head>
+<body>
+    <div onclick="esconderClicandoSombra()" class="sombra-formulario"></div>
+    
+    <header>
+        <img src="logo-header.png" alt="Logo Mario">
+        <a>Home</a>
+        <a href="https://api.whatsapp.com/send?phone=5531997617871&text=Quero%20falar%20com%20os%20irm%C3%A3os%20encanadores." target="_blank">Nossos Serviços</a>
+        <a onclick="cliqueiNoBotao()">Fale Conosco</a>
+    </header>
+
+    <main>
+        <section class="section-sobre">
+            <img class="logo-mario" src="logo.png" alt="Logo do Super Mario Bros">
+            <p class="paragrafo">Encanadores Mario & Luigi - Resolvendo seus problemas hidráulicos com estilo!</p>
+            <p class="paragrafo">
+            Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+            entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+            Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario & Luigi!
+            </p>
+            <button onclick="cliqueiNoBotao()" class="botao-contato">Entre em contato</button>
+        </section>
+        
+        <section class="section-img">
+            <img class="img-marioluigi" src="mario.png" alt="Logo Mario & Luigi">
+        </section>
+    </main>
+
+    <section class="section-video">
+        <video src="video.mp4" autoplay muted loop></video>
+        <div class="sombra"></div>
+    </section>
+
+    <a class="link-whatsapp" href="https://api.whatsapp.com/send?phone=5531997617871&text=Quero%20falar%20com%20os%20irm%C3%A3os%20encanadores." target="_blank">
+        <img src="whatsapp.png" alt="Link para o WhatsApp">
+    </a>
+
+    <form class="formulario-contato" 
+        action="https://formcarry.com/s/MQ8F-NUFOwu" method="POST" enctype="multipart/form-data">
+
+        <input placeholder="Seu nome" type="text" name="Nome">
+        <input placeholder="Seu telefone" type="tel" name="Telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="Problema"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+</body>
+    <script src="scripts.js"></script>
+</html>
